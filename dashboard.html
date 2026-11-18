@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Santuário do Mago | Área Restrita</title>
+  <link rel="stylesheet" href="style.css">
+
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+</head>
+<body>
+  <div class="container dashboard">
+    <div class="brand-header">
+      <span class="badge">🔥 ACESSO VIP LIBERADO</span>
+      <h1 class="brand-title">Santuário do Mago 🧙‍♂️</h1>
+      <p class="brand-subtitle">Bem-vindo à área exclusiva dos verdadeiros fãs do Davy Jones!</p>
+    </div>
+    
+    <div class="user-info">
+      <p><strong>📜 Membro Autenticado:</strong> <span id="user-email">Carregando...</span></p>
+      <p><strong>🆔 Passe da Guilda:</strong> <span id="user-id">Carregando...</span></p>
+    </div>
+
+    <div class="mago-cards">
+      <div class="card">
+        <h3>🎮 Status da Maratona</h3>
+        <p>"Eu zerei todos os jogos, simplesmente o Mago dos games."</p>
+      </div>
+      <div class="card">
+        <h3>📢 Próxima Live</h3>
+        <p>Análise completa de lançamentos, tretas da indústria e gameplay raiz às 20h.</p>
+      </div>
+      <div class="card">
+        <h3>🏆 Conquista Desbloqueada</h3>
+        <p><strong>Fã Raiz:</strong> Você provou sua lealdade entrando na área restrita.</p>
+      </div>
+    </div>
+
+    <button id="logout-btn" class="btn-danger">Sair do Santuário (Logout)</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

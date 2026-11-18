@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fã-Clube do Mago | Davy Jones</title>
+  <link rel="stylesheet" href="style.css">
+
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+</head>
+<body>
+  <div class="container">
+    <div class="brand-header">
+      <span class="badge">🧙 ORDEM DO MAGO DOS GAMES</span>
+      <h1 class="brand-title">Fã-Clube Davy Jones</h1>
+      <p class="brand-subtitle">O portal definitivo do Gameplay RJ. Zere todos os jogos conosco!</p>
+    </div>
+
+    <h2 id="form-title">Entrar na Guilda</h2>
+    
+    <form id="auth-form">
+      <div class="input-group">
+        <label for="email">E-mail do Membro</label>
+        <input type="email" id="email" placeholder="aprendiz@gameplayrj.com" required>
+      </div>
+      
+      <div class="input-group">
+        <label for="password">Senha Secreta</label>
+        <input type="password" id="password" placeholder="Mínimo 6 caracteres" minlength="6" required>
+      </div>
+
+      <button type="submit" id="submit-btn">Invocar Acesso</button>
+    </form>
+
+    <p id="message" class="message"></p>
+
+    <p class="toggle-text">
+      <span id="toggle-msg">Ainda não faz parte da tropa do Mago?</span>
+      <a href="#" id="toggle-link">Alistar-se agora</a>
+    </p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
